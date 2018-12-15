@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import BackgroundImage from 'gatsby-background-image'
+import {graphql, StaticQuery} from 'gatsby'
 
 const BackgroundSection = ({className}) => (
     <StaticQuery query={graphql`
@@ -20,7 +21,7 @@ const BackgroundSection = ({className}) => (
                          <BackgroundImage Tag="section"
                                           className={className}
                                           fluid={imageData}
-                                          backgroundColor={BlueBackground}
+                                          backgroundColor={'blue'}
                          >
                              <h1>Hello gatsby-background-image</h1>
                          </BackgroundImage>
