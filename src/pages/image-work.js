@@ -1,12 +1,6 @@
 import React from 'react'
-import Container from '../components/container'
-import Header from '../components/headr'
+import Background from '../components/background'
 
 export default () => (
-    <Container>
-        <Header
-            HeaderText={"This is a plugin to work with Images"}
-        />
-    </Container>
-
-)
+    <Background/>
+);
