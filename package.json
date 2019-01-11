@@ -11,6 +11,7 @@
   "dependencies": {
     "gatsby": "^2.0.33",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1"
+    "react-dom": "^16.5.1",
+    "webpack-dev-server": ">=3.1.11"
   }
 }
